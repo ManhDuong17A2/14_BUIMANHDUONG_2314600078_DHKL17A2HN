@@ -25,3 +25,21 @@ def chuyen_diem_hp(diem):
 dulieudiemchu=np.vectorize(chuyen_diem_hp)
 diemchu=dulieudiemchu(diemnumpyarray[1:,:])
 print (diemchu)
+
+print('diem hoc phan \n',
+      diemnumpyarray)
+
+HP1=diemnumpyarray[1:,0]
+HP2=diemnumpyarray[1:,1]
+HP3=diemnumpyarray[1:,2] 
+HP1=np.float16(HP1)
+HP2=np.float16(HP2)
+HP3=np.float16(HP3)
+
+print ('tong diem HP1 la :',HP1.sum() , 'trung binh HP1 la :',HP1.mean() ,'do lech chua HP1 la :',HP1.std())
+print ('tong diem HP2 la :',HP2.sum() , 'trung binh HP2 la :',HP2.mean() ,'do lech chua HP2 la :',HP2.std())
+print ('tong diem HP3 la :',HP3.sum() , 'trung binh HP3 la :',HP3.mean() ,'do lech chua HP3 la :',HP3.std())
+
+#thong ke diem # tam thoi chưa beit , chờ xem lai thầy code như nào 
+
+

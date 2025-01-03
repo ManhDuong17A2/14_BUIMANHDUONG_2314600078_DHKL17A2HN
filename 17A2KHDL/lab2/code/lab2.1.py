@@ -20,3 +20,8 @@ ngaysau = nhietdo[1:]
 nhietdochenh=ngaytruoc-ngaysau
 print (nhietdochenh)
 print (nhietdochenh.max())
+
+
+
+
+
